@@ -8,7 +8,7 @@ const Telegram = require('telegram-node-bot'),
     `${__dirname}/data/userStorage.json`,
     `${__dirname}/data/chatStorage.json`
   ),
-tg = new Telegram.Telegram('639248095:AAGDGjlLm0ljHsjL0ZvsPzZYLAOGvqxue5Y', {
+tg = new Telegram.Telegram('Your Api key from botfather in telegram', {
     workers : 1,
     storage : storage
   });
